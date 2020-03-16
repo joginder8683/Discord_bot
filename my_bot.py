@@ -5,7 +5,7 @@ from discord.ext import commands
 from googlesearch import search
 from redis_model import RedisDb
 
-redi_obj=RedisDb("localhost","6379")
+redis_obj=RedisDb("localhost","6379")
 
 class MyClient(discord.Client):
     # on ready function will print the user who logged in
